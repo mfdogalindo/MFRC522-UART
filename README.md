@@ -24,6 +24,8 @@ If you have a chinese RC522 board, cut 3.3V wire to pin 32 and populate to GND
 Import the class by importing MFRC522 in the top of your script. For more info see the examples.
 
 ##Thanks To
-|--------------|------------------------------------------|
-|Miguel Balboa | https://github.com/miguelbalboa/rfid     |
-|MXGXW         | https://github.com/mxgxw/MFRC522-python  |
+
+Miguel Balboa -> https://github.com/miguelbalboa/rfid 
+
+    
+MXGXW         -> https://github.com/mxgxw/MFRC522-python  
