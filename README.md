@@ -15,7 +15,7 @@ A small class to interface with the NFC reader Module MFRC522 through UART
 
 ## Rework
 
-If you have a chinese RC522 board
+If you have a chinese RC522 board, cut 3.3V wire to pin 32 and populate to GND
 
 ![alt tag](https://github.com/manuelgalindo/MFRC522-UART/raw/master/wiring.jpg)
 
