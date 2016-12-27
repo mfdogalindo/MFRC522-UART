@@ -117,12 +117,12 @@ class MFRC522:
   
   def reset(self, spd=None):
     if not self.writeRegister(self.CommandReg, self.PCD_RESETPHASE):
-      self.ser.baudrate=1228800
+      self.ser.baudrate=115200
       self.writeRegister(self.CommandReg, self.PCD_RESETPHASE)
       self.ser.baudrate=9600
       time.sleep(0.05)
-    self.writeRegister(self.SerialSpeedReg, 0x15)
-    self.ser.baudrate=1228800 
+    self.writeRegister(self.SerialSpeedReg, 0x7A)
+    self.ser.baudrate=115200 
 
 
 
